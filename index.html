@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYLOKAL</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>GYLOKAL</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" class="search-input" placeholder="Cari artikel..." oninput="searchArticles()">
+            <button class="search-button" onclick="toggleSearch()">🔍</button>
+        </div>
+    </header>
+
+    <!-- Main Post List -->
+    <main id="post-list" class="post-list"></main>
+
+    <footer>
+        <p>&copy; 2024 GYLOKAL</p>
+    </footer>
+
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
